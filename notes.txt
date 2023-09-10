@@ -1,0 +1,4 @@
+So:
+Sync reading and writing blocks the running of the code after esentially blocking the whole program until this task is complete.
+
+Async reading and writing block dont stop the running of the program so if this task starts running other tasks can start as well.
