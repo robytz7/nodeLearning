@@ -17,3 +17,27 @@ const server = http.createServer((req, res) => {
 })
 server.listen(2500)
 
+
+
+// const http = require('http')
+
+// const server = http.createServer((req, res) =>{
+//     console.log("URL:", req.url)
+//     if(req.url === '/'){
+//         console.log('request main')
+//         res.end('Here is something')
+//     }
+//     else if(req.url === '/about')
+//     {
+//         console.log('request about')
+//         res.end('Here is our short history')
+//     }
+//     else {
+//         console.log('request else')
+//         res.end('Hello world')
+//     }
+// })
+
+// server.listen(5000, () =>{
+//     console.log('Server listening on port: ')
+// })
